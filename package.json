@@ -1,0 +1,21 @@
+{
+  "name": "NodeChat",
+  "description": "A simple chat for illustrating node.js.",
+  "version": "0.1.0",
+  "author": "Claus A. Sørensen <claus.sorensen@novanet.no>",
+  "dependencies": {
+    "express": ">= 3.3.4",
+    "mocha": ">= 1.12.0",
+    "socket.io": ">= 0.9.16",
+    "jade": ">= 0.35.0",
+    "socket.io": ">= 0.9.6"
+  },
+  "readme": "",
+  "engines": {
+    "node": "*"
+  },
+  "scripts": {
+    "test": "mocha test/*.js test/**/*.js -w --slow 300 --reporter Spec", 
+  	"start": "node server.js"
+  }
+}

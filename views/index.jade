@@ -1,0 +1,16 @@
+!!!5
+html
+	head
+		title Node Chat!
+		link(rel='stylesheet', href='/base.css')
+		link(rel='stylesheet', href='/bubbles.css')
+		script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+		script(src='/chat.js')
+		script(src='/socket.io/socket.io.js')
+	body
+		p
+			| &nbsp;&nbsp; Name 
+			input(type='text', id='name')
+			| &nbsp;&nbsp; Say 
+			input(type='text', id='say')
+
