@@ -1,7 +1,7 @@
 nodechat
 ========
 
-[![build status](https://secure.travis-ci.org/alexbirkett/nodechat.png)](http://travis-ci.org/alexbirkett/nodechat)
+[![build status](https://secure.travis-ci.org/braincell/nodechat.png)](http://travis-ci.org/braincell/nodechat)
 
 NodeChat is a starter project to illustrate how to use node.js, Socket.IO, Express, Jade, Mocha and Should to create and test a tiny live chat.
 
