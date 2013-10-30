@@ -15,7 +15,7 @@
     "node": "*"
   },
   "scripts": {
-    "test": "mocha test/*.js test/**/*.js --slow 300 --reporter Spec", 
+    "test": "mocha test/*.js test/**/*.js --slow 300", 
   	"start": "node server.js"
   }
 }
